@@ -8,4 +8,6 @@ http://blog.datumbox.com/machine-learning-tutorial-the-max-entropy-text-classifi
 
 The maximum entropy classifer I have successfully implemented utilizes stochastic gradient descent, whereas the empirical model utilizes regular gradient descent. This was a design choice because stochastic descent is more of an approximate convergence, whereas the empirical model is more exact based upon frequency probability. I wanted the program to be able to run, train, and score within a decent amount of time. Currently, the program is still a bit slow because of how I've handled the Bag of Words, but still gives a 74-78% accurracy across 10 test splits on average. The theoretical maximum is 86.7 percent accuracy, but that is with much more in-depth feature extraction, whereas I am essentially utilizing Bag of Words and removing stopwords in scoring.
 
+If you'd like to reproduce my results, please check out the implementation notes, and utilize the data folders "Pos" and "Neg" as hyperparameters when running MaxEnt from the Python shell.
+
 Enjoy!
